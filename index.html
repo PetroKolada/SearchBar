@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Поиск в элементе</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <span class="search_pos">
+                <input type="text" class="search_input" placeholder="Поле поиска" id="searchInput">
+                <div class="search_buttons">
+                    <button class="header_button"><img src="img/search.png" alt="" sizes="" class="icon"
+                            id="searchButton"></button>
+                    <button class="header_button"><img src="img/close.png" alt="" sizes="" class="icon"
+                            id="closeButton"></button>
+                </div>
+            </span>
+            <div class="found__elements" id="foundElements"></div>
+        </div>
+        <div class="main">
+            <div class="list">
+                <span class="item">Привет я предмет 1</span>
+                <span class="item">Пам пам пам</span>
+                <span class="item">Ратата</span>
+                <span class="item">111</span>
+                <span class="item">22</span>
+                <span class="item">Яблоко</span>
+                <span class="item">Ананас</span>
+                <span class="item">Кчау</span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
